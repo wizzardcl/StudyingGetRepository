@@ -5,11 +5,31 @@ namespace StudyingApplication.Controllers
   public sealed class TestTagBuilder
   {
     private readonly string _tagName;
-    public void AddClass() { }
-    public void AddAttribute() { }
-    public void MergeAttribute() { }
-    public void RemoveClass() { }
-    public void SetInnerText() { }
+
+    public void AddClass()
+    {
+      
+    }
+
+    public void AddAttribute()
+    {
+      
+    }
+
+    public void MergeAttribute()
+    {
+      
+    }
+
+    public void RemoveClass()
+    {
+      
+    }
+
+    public void SetInnerText()
+    {
+      
+    }
 
     public TestTagBuilder(string tagName)
     {
