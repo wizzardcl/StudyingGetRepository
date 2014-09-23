@@ -1,1 +1,3 @@
-!/StudyingApplication/StudyingApplication/bin
+*.dll
+*.xml
+*.pdb

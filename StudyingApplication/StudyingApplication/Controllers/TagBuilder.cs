@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace StudyingApplication.Controllers
 {
@@ -8,27 +9,27 @@ namespace StudyingApplication.Controllers
 
     public void AddClass()
     {
-      
+      throw new NotImplementedException();
     }
 
     public void AddAttribute()
     {
-      
+      throw new NotImplementedException();
     }
 
     public void MergeAttribute()
     {
-      
+      throw new NotImplementedException();
     }
 
     public void RemoveClass()
     {
-      
+      throw new NotImplementedException();
     }
 
     public void SetInnerText()
     {
-      
+      throw new NotImplementedException();
     }
 
     public TestTagBuilder(string tagName)
