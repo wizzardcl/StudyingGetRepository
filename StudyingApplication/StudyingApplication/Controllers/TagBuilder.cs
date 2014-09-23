@@ -1,15 +1,36 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace StudyingApplication.Controllers
 {
   public sealed class TestTagBuilder
   {
     private readonly string _tagName;
-    public void AddClass() { }
-    public void AddAttribute() { }
-    public void MergeAttribute() { }
-    public void RemoveClass() { }
-    public void SetInnerText() { }
+
+    public void AddClass()
+    {
+      throw new NotImplementedException();
+    }
+
+    public void AddAttribute()
+    {
+      throw new NotImplementedException();
+    }
+
+    public void MergeAttribute()
+    {
+      throw new NotImplementedException();
+    }
+
+    public void RemoveClass()
+    {
+      throw new NotImplementedException();
+    }
+
+    public void SetInnerText()
+    {
+      throw new NotImplementedException();
+    }
 
     public TestTagBuilder(string tagName)
     {
